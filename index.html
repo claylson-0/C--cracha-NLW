@@ -20,15 +20,15 @@
                 <span>
                     <img src="images/build.svg" alt="Selo Rocketseat">
                 </span>
-                <img src="https://github.com/Claylson-0.png" alt="Foto pessoal">
+                <img id="userImage" src="http://lorempixel.com/185/185/people/" alt="Foto pessoal">
             </div>
 
-            <h1 id="userName">Claylson</h1>
-            <a href="https://github.com/claylson-0">
+            <h1 id="userName">Lorem Ipsum</h1>
+            <a id="userLink" href="">
                 <img src="images/github.svg" alt="icone github">
-                claylson-0</a>
+                <span id="userLogin">Lorem Ipsum</span></a>
 
-            <p>An instructor focused on helping pople start progamming for web</p>
+            <p id="userBio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque iaculis tincidunt sem in rutrum. Duis.</p>
             <ul id="socialLinks">
                 <li class="youtube">
                     <a href="" target="_blank">
@@ -54,26 +54,8 @@
         </div>
     </main>
 
-    <script>
-
-        const linksSocialMedia = {
-            github: "claylson-0",
-            youtube: "",
-            facebook: "",
-            instagram: "",
-            twitter: ""
-        }
-
-        function changeSocialMediaLinks() {
-           for(let li of socialLinks.children){
-            const social=li.getAttribute("class")
-            li.children[0].href=`https://${social}.com/${linksSocialMedia[social]}`
-           }
-        }
-        changeSocialMediaLinks()
-    </script>
+    <script src="main.js"></script>
 
 </body>
 
 </html>
-
