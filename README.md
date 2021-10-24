@@ -16,6 +16,11 @@ Projetos feitos durante a NLW/Heat, trilha Origin.
 
 ## Layout
 <div align="center">
-<img src="./images/readme-img.PNG">
+
+### Mobile
+<img src="./images/readme-img-mobile.PNG">
+
+### Desktop
+<img src="./images/readme-img-desktop.PNG">
 </div>
 
